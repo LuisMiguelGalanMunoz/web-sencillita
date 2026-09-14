@@ -166,14 +166,56 @@ main {
 
 
 footer {
-    background-color: #1e293b;
+
+    background-color: #2196f3;
+
     color: white;
+
     text-align: center;
+
     padding: 15px 0;
+
     position: fixed;
+
     width: 100%;
+
     bottom: 0;
+
 }
+
+.content_Footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_Footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#Info_Pagina ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#Info_Pagina li {
+    margin: 10px;
+}
+
+#cont-redSocial {
+    display: flex;
+}
+
+#cont-redSocial div {
+    margin: 5px 15px;
+}
+
+#cont-redSocial img {
+    width: 25px;
+}
+
+
 
 
 .logo {
